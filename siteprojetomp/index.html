@@ -1,0 +1,139 @@
+<!--https://www.youtube.com/watch?v=0su3MyulVSo-->
+<!DOCTYPE html>
+<html lang="en"> <!--deixar no idioma ingles para que o site seja para o mundotudo-->
+
+<head>
+  <meta charset="UTF-8"> <!--aceita carcteres especiais de acentuação-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--escala inicial para dispositivos moveis-->
+  <meta name="author" content="MAria Paula">
+  <meta name="description" content="practica em htm">
+  <meta name="keywork" content="html,css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--conpativilidade com os navegadores, ele vai forçar o navegador renderizar com o modo mais recente do navegador atual.-->
+  <link rel="shortcut icon" href="./asserts/img/favicon.ico" type="imagem-icone">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./Home.html">
+  <link rel="stylesheet" href="./contato.html">
+  <!-- <link rel="stylesheet" type="text/css" href="index.css">-->
+  <!--stylesheet = folia de estilo / href= onde esta a pasta .css-->
+  <title> Projeto Site</title><!--nome da pagina-->
+</head>
+
+<body>
+  <div id="container"> <!-- caixa mae-->
+
+    <div id="header"> <!--cabeçalho-->
+      <img src="./asserts/img/cellgrin.png" id="logo" alt="logo">
+
+      <div id="nav"> <!--Navegar /vou em capsular   quando passar stei withyn-->
+        <select> <!-- é um seletor para selecionar elementos-->
+          <option> Português</option>
+          <option> English</option>
+        </select>
+
+        <a href="./Home.html" target="_blank" id="btn-enter">Entrar</a> <!-- primeiro botão-->
+      </div>
+    </div>
+  </div>
+
+  <div id="main"> <!--principal-->
+    <h1 id="title-main">Loja especializada em acessoríos para celular, <br>electronicos e video game  </h1>
+    <h2 class="subtitle-main"> <strong>Os melhores produtos encontra aquí!</strong></h2>
+    <h3>Informe seu email e entraremos em contato.</h3>
+    <form> <!--form é formulario ou posso criar div id="form"> -->
+      <input type="email" placeholder="Email" id="input">
+      <button id="btn-start">
+       <a href="./contato.html" target="_blank"> Vamos lá > </a>
+      </button>
+    </form>
+
+    <div id="music">
+    <audio controls>
+      <source src="./audios/Alok, Bruno Martini feat. Zeeba   Hear Me Now (Official Music Audio)[1].mp3">
+    </audio>
+    </div>
+
+  </div>
+
+
+
+  <div id="box-container"> <!--otro box enbaixo do conteirner-->
+    <div class="box-info">
+      <div class="box-text">
+        <h1 class="box-title">Cabos,cargadores,</h1>
+        <h2 class="subtitle-main">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, neque laborum, <br>ea optio, iusto error non quibusdam voluptatem sint rem delectus quae culpa ex magnam quaerat iure cupiditate quas quod!.</h2>
+      </div>
+
+      <img src="./asserts/img/o-conceito-de-smartphone-de-transmissao-de-dados-e-cabo-usb-em-uma-renderizacao-3d-de-fundo-turquesa_407474-4075.avif" alt="imagems da TV" id="Tv">
+    </div>
+
+    <div class="shadow"></div> <!--é uma linha-->
+
+    <div class="box-info">
+      <img src="./asserts/img/240_F_671350602_BcmfmksemImJ7DxnO1gHLSrEe0uQAOGs.jpg" alt="imagems da tablet" id="tablet">
+      <div class="box-text">
+        <h1 class="box-title">Aparelhos Eletrónicos </h1>
+        <h2 class="subtitle-main">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi rerum autem, esse odit voluptatem hic officiis illo quisquam vero deleniti. Repellendus vel,<br> tenetur consequuntur aperiam alias corporis exercitationem laboriosam! Odio</h2>
+      </div>
+    </div>
+    <div class="shadow"></div> <!--é uma linha-->
+
+    <div class="box-info">
+      <div class="box-text">
+        <h1 class="box-title">Video Game </h1>
+        <h2 class="subtitle-main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero in molestiae id temporibus,<br> briste fuga voluptatibus maiores excepturi at sint laborum magnam tempora officia nulla ipsum consectetur dolore voluptatem!, outros dispositivos.</h2>
+      </div>
+      
+      <img src="./asserts/img/controller-2618897_640.jpg" alt="imagems da TV" id="Tv">
+    </div>
+  </div>
+
+  <nav>
+    <div  id="redes-sociais">
+      <ul>
+        <h4>Rede sociais</h4>
+        <li>instagraqn</li>
+        <li>Facebook</li>
+        <li>whassap</li>
+
+      </ul> 
+    </div>
+    <div id="help-and-suport">
+    <ul>
+      <h4>Ajuda e Supore</h4>
+      <li>Fale conosco</li>
+      <li>Envio e pagamento</li>
+      <li>Troca e devoluções</li>
+      <li>Politicas de Privacidade</li>
+    </ul>
+  </div>
+
+    <div  id="atendimento">
+      <ul>
+        <h4>atendimento</h4>
+        <li>seg á sex das 8:00 a 12:00h</li>
+        <li>seg á sex da 13:00 a 17:00h</li>
+        <li> 47 9 5656-1511</li>
+      </ul> 
+    </div>
+  </nav>
+
+  
+  <footer>  
+   <div id="copy">
+    <h4>&copy;2024 Comercio de distribuição - cnpj 23.568.0001-58 CEP: 25.6532, Blumenau</h4> 
+   </div>
+   <div id="dev">
+    Desenvolvido por  Paula_Arboleda
+   </div>
+  </footer>
+
+  <article>
+    <footer>
+      <a href="https://www.dio.me/articles/como-se-tornar-um-bom-desenvolvedor-de-software" target="_blank">Dicas</a>
+    </footer>
+  </article>
+
+</body>
+
+</html>

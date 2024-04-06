@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=Gemunu+Libre:wght@300&family=Protest+Strike&family=Roboto:ital,wght@1,700&display=swap');
+
+/*copie do google font*/
+body {
+    font-family: 'Circular std', sans-serif;
+    /*'Belanosima', sans-serif;*/
+    margin: 0px;
+    background-color: #2d3448f9;
+}
+
+#logo {
+    width: 300px;  /*tem 150*/
+    
+}
+
+#container {
+    background-image: linear-gradient(103.24deg, rgba(30, 44, 80, 0.9) 23.83%, rgba(81, 95, 132, 0.3) 96.1%), url('https://img.freepik.com/fotos-gratis/fundo-digital-futurista-897gradiente-azul-escuro_53876-102619.jpg?w=1060&t=st=1707425028~exp=1707425628~hmac=0641a00ea7ddba02f00c29191eabae4ee25d7decdb76a139df5085670eab1');;
+    /*height: 700px; */  
+    background-size: cover;   /*imagem fica dentro da tela*/
+    padding: 40px;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+select {
+    padding: 7px 15px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.64);
+    background-image: url('../asserts/img/favicon.ico');
+    background-size: 15px;
+    /* se repite varias imagem uma do lado da outra*/
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-right: 20px;
+}
+
+#btn-enter {
+    padding: 7px 15px;
+    font-size: 14px;
+    background-color: #e50914;
+    border: none;
+    /* tirar alinha da borda*/
+    border-radius: 5px;
+    color: white; /*letra*/
+    /*margin: 15px;   igual linha 41 margin-right: 20px; */
+    text-decoration: none;
+}
+
+#main {
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+#title-main {
+    font-size: 62px;
+    /*coloquei o tipo da fonte no item1 e nome da family no body*/
+    font-weight: 900px;
+    /*espesura da fonte*/
+}
+
+h3 {
+    font: weight 400px;
+    margin-top: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    /*estos 2 item fazem que os dois item fiquem ligados um do lado do aoutro*/
+}
+
+#input {
+    height: 50px;
+    width: 350px;
+    background-color: rgba(51, 51, 51, 0.204);
+    font-size: 18px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 0px 10px;
+    color: #e3dbdb;
+}
+
+#btn-start {
+    margin-left: 10px; /*afasta emaildo vamosla*/
+    font-size: 22px;
+    color: rgb(252, 252, 252);
+    background-color: #e50914;
+    padding: 2px 20px;
+    font-weight: 700px;  /*espesura da fonte*/
+    border: none;
+    border-radius: 5px;
+}
+
+
+#box-container{
+    width: 100%;
+    height: 1200px;
+    margin: 0 auto; /*traas margem dos cantos e fica centralizado*/
+    margin-top: 100px;
+    background: linear-gradient(333.52deg, #000235 24.58%, #010F42 84.55%, #ef999e 104.96%);
+    border-radius: 5px;
+    padding: 2rem 0; 
+
+    
+}
+
+.box-info{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    padding: 40px;
+    justify-content: center ;
+}
+
+.box-title{
+    font-size: 48px ;
+    font-weight: 800px;
+}
+
+.subtitle-main{
+    font-size: 20px;   
+}
+
+.shadow{
+    width: 85%;
+    height: 7px;
+    background-color: rgb(39, 25, 85);
+    margin: 0 auto; /*centraliza*/
+}
+
+img{
+    width: 23%;
+    border-radius: 5%;
+}
+
+#music{
+    margin-left: 1200px;
+}
+
+nav{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 5px;
+}
+
+footer{
+    background-color: #10196b71;
+    color:rgb(255, 255, 255);
+    font-size: small;
+    padding: 15px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer a{
+    color: #6343ca;
+    font-size: 20px ;
+}
+
